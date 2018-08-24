@@ -1,0 +1,47 @@
+5327 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+5961 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+6432 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7230 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@64e7619d: startup date [Wed Jul 25 16:35:44 CST 2018]; root of context hierarchy
+7343 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+7345 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+7372 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7373 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7693 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Started ProductCategoryRepositoryTest in 6.361 seconds (JVM running for 8.286)
+7920 [Thread-2] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@64e7619d: startup date [Wed Jul 25 16:35:44 CST 2018]; root of context hierarchy
+7929 [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+7932 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+7957 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2219 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on steamed-bundeMacBook-Pro.local with PID 6329 (started by steamed-bun in /Library/work/my_projects/sell)
+2223 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+2287 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@533bda92: startup date [Wed Jul 25 16:40:06 CST 2018]; root of context hierarchy
+2961 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+4850 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+4872 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+4996 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+4999 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+5000 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+5066 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+5220 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+1209 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on steamed-bundeMacBook-Pro.local with PID 6337 (started by steamed-bun in /Library/work/my_projects/sell)
+1215 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+1255 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@533bda92: startup date [Wed Jul 25 16:41:24 CST 2018]; root of context hierarchy
+1783 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+3738 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+3756 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+3818 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+3819 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+3821 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+3862 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+4000 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+1518 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on steamed-bundeMacBook-Pro.local with PID 6351 (started by steamed-bun in /Library/work/my_projects/sell)
+1519 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+1625 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@536f2a7e: startup date [Wed Jul 25 16:43:49 CST 2018]; root of context hierarchy
+1954 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final

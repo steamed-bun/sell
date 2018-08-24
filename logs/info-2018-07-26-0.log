@@ -1,0 +1,42 @@
+1632 [main] INFO  c.i.s.s.i.CategoryServiceImplTest - Starting CategoryServiceImplTest on steamed-bundeMacBook-Pro.local with PID 7381 (started by steamed-bun in /Library/work/my_projects/sell)
+1635 [main] INFO  c.i.s.s.i.CategoryServiceImplTest - No active profile set, falling back to default profiles: default
+1718 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ae0a9ec: startup date [Thu Jul 26 11:01:34 CST 2018]; root of context hierarchy
+2243 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+4342 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+4373 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+4481 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+4483 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+4485 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+4541 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+4699 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+5763 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+5863 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+7053 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7ae0a9ec: startup date [Thu Jul 26 11:01:34 CST 2018]; root of context hierarchy
+7155 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+7156 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+7193 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7193 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7250 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7554 [main] INFO  c.i.s.s.i.CategoryServiceImplTest - Started CategoryServiceImplTest in 6.86 seconds (JVM running for 8.019)
+7655 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+7891 [Thread-3] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7ae0a9ec: startup date [Thu Jul 26 11:01:34 CST 2018]; root of context hierarchy
+7894 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+1527 [main] INFO  c.i.s.R.ProductInfoRepositoryTest - Starting ProductInfoRepositoryTest on steamed-bundeMacBook-Pro.local with PID 7893 (started by steamed-bun in /Library/work/my_projects/sell)
+1529 [main] INFO  c.i.s.R.ProductInfoRepositoryTest - No active profile set, falling back to default profiles: default
+1588 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d1bf319: startup date [Thu Jul 26 15:46:08 CST 2018]; root of context hierarchy
+1960 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+3668 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+3684 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+3747 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+3748 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+3750 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+3790 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+3920 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+4418 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+4450 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl - HHH000262: Table not found: product_info
+4451 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl - HHH000262: Table not found: product_info
+4527 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
