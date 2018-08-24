@@ -1,0 +1,2 @@
+5917 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Unknown system variable 'tx_isolation'
+7223 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry '1' for key 'unq_category_type'

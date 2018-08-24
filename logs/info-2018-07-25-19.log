@@ -1,0 +1,35 @@
+6630 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6690 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6690 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6746 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7083 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Started ProductCategoryRepositoryTest in 6.482 seconds (JVM running for 7.65)
+7246 [Thread-3] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:33:58 CST 2018]; root of context hierarchy
+7249 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+1373 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on steamed-bundeMacBook-Pro.local with PID 6671 (started by steamed-bun in /Library/work/my_projects/sell)
+1375 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+1464 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:34:25 CST 2018]; root of context hierarchy
+1858 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+3816 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+3831 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+3913 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+3914 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+3916 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+3954 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+4116 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+4650 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+4713 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+5472 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:34:25 CST 2018]; root of context hierarchy
+5563 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5565 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5600 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5600 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5646 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5940 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Started ProductCategoryRepositoryTest in 5.427 seconds (JVM running for 6.332)
+6089 [Thread-3] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:34:25 CST 2018]; root of context hierarchy
+6092 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+1544 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on steamed-bundeMacBook-Pro.local with PID 6677 (started by steamed-bun in /Library/work/my_projects/sell)
+1564 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+1638 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:35:49 CST 2018]; root of context hierarchy
+2117 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final

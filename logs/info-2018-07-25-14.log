@@ -1,0 +1,41 @@
+3936 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+3975 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+4041 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+4042 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+4043 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+4088 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+4216 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+4615 [main] INFO  o.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.imooc.sell.dataobject.ProductCategory (class must be instantiated by Interceptor)
+4707 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+4738 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+4770 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+5603 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:15:47 CST 2018]; root of context hierarchy
+5703 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5704 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5729 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5729 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5771 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6049 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Started ProductCategoryRepositoryTest in 5.519 seconds (JVM running for 6.496)
+6217 [Thread-3] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:15:47 CST 2018]; root of context hierarchy
+6220 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+1355 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on steamed-bundeMacBook-Pro.local with PID 6590 (started by steamed-bun in /Library/work/my_projects/sell)
+1356 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+1416 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:16:22 CST 2018]; root of context hierarchy
+1782 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+3517 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+3532 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+3611 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+3614 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+3618 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+3661 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+3765 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+4253 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+4289 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+4322 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+5049 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@71075444: startup date [Wed Jul 25 17:16:22 CST 2018]; root of context hierarchy
+5163 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5164 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)

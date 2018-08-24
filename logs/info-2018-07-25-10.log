@@ -1,0 +1,36 @@
+2805 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2332906] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+3113 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3458 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3515 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+3529 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+3603 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+3604 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+3644 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+3775 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+4263 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4591 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5182 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@723e88f9: startup date [Wed Jul 25 16:25:38 CST 2018]; root of context hierarchy
+5265 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5266 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5296 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5297 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5624 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Started ProductCategoryRepositoryTest in 4.804 seconds (JVM running for 6.104)
+5923 [Thread-2] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@723e88f9: startup date [Wed Jul 25 16:25:38 CST 2018]; root of context hierarchy
+5928 [Thread-2] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+5930 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+5934 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2423 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - Starting ProductCategoryRepositoryTest on steamed-bundeMacBook-Pro.local with PID 6306 (started by steamed-bun in /Library/work/my_projects/sell)
+2426 [main] INFO  c.i.s.R.ProductCategoryRepositoryTest - No active profile set, falling back to default profiles: default
+2467 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@64e7619d: startup date [Wed Jul 25 16:35:44 CST 2018]; root of context hierarchy
+4054 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$62fc8654] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+4395 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+4822 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+4881 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+4906 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+5041 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+5042 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+5109 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
