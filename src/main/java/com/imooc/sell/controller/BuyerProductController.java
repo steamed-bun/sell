@@ -61,4 +61,10 @@ public class BuyerProductController {
         return ResultOVUtil.success(productOVS);
     }
 
+
+    @GetMapping(value = "/test")
+    public ResultOV test() {
+        return ResultOVUtil.success("test");
+    }
+
 }
