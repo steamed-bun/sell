@@ -4,169 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ab7f0c2-9617-477f-8922-7f88bcdf6255" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-06-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-06-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-06-2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-06-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-11-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-11-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-11-2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-11-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-11-4.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-11-5.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2018-12-12-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-01-22-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-01-25-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-04-03-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-04-03-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-04-03-2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-04-03-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-04-03-4.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-04-04-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error-2019-04-08-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-22-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-22-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-22-2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-22-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-22-4.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-22-5.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-22-6.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-25-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-01-25-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-12.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-13.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-15.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-4.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-5.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-6.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-7.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-8.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-03-9.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-04-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-04-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-4.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-5.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-6.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-7.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-8.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/info-2019-04-08-9.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/981a91a6-c464-4726-8311-900fbc40ebb2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_43.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sell.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sell.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/OV/ProductInfoOV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/OV/ProductOV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/OV/ResultOV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/Repository/ProductCategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/Repository/ProductInfoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/SellApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/controller/BuyerProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/dataobject/ProductCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/dataobject/ProductInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/enums/ProductStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/service/ProductInfoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/service/impl/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/service/impl/ProductInfoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/sell/utils/ResultOVUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="6ab7f0c2-9617-477f-8922-7f88bcdf6255" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -294,6 +132,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master_1" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -672,7 +515,7 @@
       <workItem from="1551430292691" duration="16000" />
       <workItem from="1551431574796" duration="9205000" />
       <workItem from="1551686151026" duration="1799000" />
-      <workItem from="1554257159583" duration="25966000" />
+      <workItem from="1554257159583" duration="26268000" />
     </task>
     <task id="LOCAL-00001" summary="加入shiro">
       <created>1548140537596</created>
@@ -730,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554694266173</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="删除无用文件">
+      <created>1554694627942</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554694627942</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -766,7 +616,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127975000" />
+    <option name="totallyTimeSpent" value="128277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,10 +629,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32893" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3104435" side_tool="true" visible="true" weight="0.71598417" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -802,8 +651,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.659181" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.4689564" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.71598417" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993395" visible="true" weight="0.3118741" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.68955654" visible="true" weight="0.71598417" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993395" visible="true" weight="0.3118741" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
