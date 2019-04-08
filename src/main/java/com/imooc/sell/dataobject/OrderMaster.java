@@ -3,6 +3,7 @@ package com.imooc.sell.dataobject;
 import com.imooc.sell.enums.OrderStatusEnum;
 import com.imooc.sell.enums.PayStatusEnum;
 import lombok.Data;
+import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.Entity;
@@ -16,6 +17,7 @@ import java.util.Date;
  * @create: 2018-08-23 16:34
  */
 @DynamicUpdate
+@DynamicInsert
 @Entity
 @Data
 public class OrderMaster {

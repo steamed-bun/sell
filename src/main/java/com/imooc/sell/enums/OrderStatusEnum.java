@@ -14,7 +14,14 @@ public enum OrderStatusEnum {
     FINISHED(1, "已完结"),
     CANCEL(2, "取消"),
     ;
+
+    /**
+     * 订单状态
+     */
     private Integer code;
+    /**
+     * 订单状态描述
+     */
     private String msg;
 
     OrderStatusEnum(Integer code, String msg) {

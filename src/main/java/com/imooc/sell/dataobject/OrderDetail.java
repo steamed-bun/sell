@@ -1,6 +1,7 @@
 package com.imooc.sell.dataobject;
 
 import lombok.Data;
+import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.Entity;
@@ -15,13 +16,14 @@ import java.util.Date;
  */
 @Entity
 @DynamicUpdate
+@DynamicInsert
 @Data
 public class OrderDetail {
 
     @Id
     private String detailId;
-    private Integer orderId;
-    private Integer productId;
+    private String orderId;
+    private String productId;
     private String productName;
     private BigDecimal productPrice;
     private Integer productQuantity;

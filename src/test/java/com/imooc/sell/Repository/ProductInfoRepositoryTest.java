@@ -11,8 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.math.BigDecimal;
 import java.util.List;
 
-import static org.junit.Assert.*;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ProductInfoRepositoryTest {
@@ -23,10 +21,10 @@ public class ProductInfoRepositoryTest {
     @Test
     public void save() {
         ProductInfo productInfo = new ProductInfo();
-        productInfo.setProductId("123456");
-        productInfo.setProductName("冰红茶");
+        productInfo.setProductId("1234567");
+        productInfo.setProductName("营养快线");
         productInfo.setProductPrice(new BigDecimal(11.2));
-        productInfo.setProductDescription("戒不掉呀");
+        productInfo.setProductDescription("红枣味好喝");
         productInfo.setProductIcon(".....");
         productInfo.setProductStatus(0);
         productInfo.setCategoryType(3);

@@ -14,7 +14,13 @@ public enum PayStatusEnum {
     SUCCESS(1, "支付成功"),
     ;
 
+    /**
+     * 支付状态
+     */
     private Integer code;
+    /**
+     * 支付状态描述
+     */
     private String msg;
 
     PayStatusEnum(Integer code, String msg) {

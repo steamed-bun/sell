@@ -14,7 +14,13 @@ public enum ProductStatusEnum {
     DOWN(1, "下架"),
     ;
 
+    /**
+     * 商品状态
+     */
     private Integer code;
+    /**
+     * 商品状态描述
+     */
     private String msg;
 
     ProductStatusEnum(Integer code, String msg) {
