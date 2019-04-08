@@ -1,0 +1,47 @@
+1054 [main] INFO  com.imooc.sell.SellApplication - Starting SellApplication on steamed-bundeMacBook-Pro.local with PID 57347 (/Library/work/my_projects/sell/target/classes started by steamed-bun in /Library/work/my_projects/sell)
+1055 [main] INFO  com.imooc.sell.SellApplication - No active profile set, falling back to default profiles: default
+1127 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73a2e526: startup date [Wed Apr 03 10:40:48 CST 2019]; root of context hierarchy
+1207 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2779 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2790 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2791 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+2900 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring embedded WebApplicationContext
+2900 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1774 ms
+3031 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+3036 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+3036 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+3037 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+3037 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+4658 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+4674 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+4787 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+4790 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+4792 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+4856 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+5006 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+5556 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+7224 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+7856 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73a2e526: startup date [Wed Apr 03 10:40:48 CST 2019]; root of context hierarchy
+7937 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.BuyerProductController.list()
+7938 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buyer/product/test],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.BuyerProductController.test()
+7941 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/permission/login],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.PermissionController.login(java.lang.String,java.lang.String)
+7941 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login-error],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.loginTo()
+7942 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.logout()
+7942 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.login()
+7944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/first],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.first()
+7944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/second],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.second(com.imooc.sell.OV.ProductOV)
+7944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/fourth],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.fourth(java.lang.String,java.lang.Integer,java.lang.Double)
+7944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/third],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.third(java.lang.String)
+7946 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+7946 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+7978 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7979 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8021 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8389 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+8435 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+8443 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+8467 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+8483 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+8488 [main] INFO  com.imooc.sell.SellApplication - Started SellApplication in 8.294 seconds (JVM running for 9.174)

@@ -1,0 +1,39 @@
+658509 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/sell] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+658519 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+658578 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 59 ms
+669407 [Thread-18] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73a2e526: startup date [Wed Apr 03 14:19:59 CST 2019]; root of context hierarchy
+669412 [Thread-18] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+669415 [Thread-18] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+1430 [main] INFO  c.i.s.R.OrderMasterRepositoryTest - Starting OrderMasterRepositoryTest on steamed-bundeMacBook-Pro.local with PID 58777 (started by steamed-bun in /Library/work/my_projects/sell)
+1432 [main] INFO  c.i.s.R.OrderMasterRepositoryTest - No active profile set, falling back to default profiles: default
+1595 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4722ef0c: startup date [Wed Apr 03 14:31:26 CST 2019]; root of context hierarchy
+1948 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+4885 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+4905 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+4999 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+5000 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+5002 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+5052 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+5186 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+5764 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+7270 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+8247 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4722ef0c: startup date [Wed Apr 03 14:31:26 CST 2019]; root of context hierarchy
+8325 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.BuyerProductController.list()
+8326 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buyer/product/test],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.BuyerProductController.test()
+8330 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/permission/login],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.PermissionController.login(java.lang.String,java.lang.String)
+8332 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.login()
+8332 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.logout()
+8332 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login-error],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.loginTo()
+8335 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/first],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.first()
+8335 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/second],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.second(com.imooc.sell.OV.ProductOV)
+8335 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/third],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.third(java.lang.String)
+8336 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/fourth],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.fourth(java.lang.String,java.lang.Integer,java.lang.Double)
+8340 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+8342 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+8368 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8368 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8414 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8692 [main] INFO  c.i.s.R.OrderMasterRepositoryTest - Started OrderMasterRepositoryTest in 8.09 seconds (JVM running for 9.145)
+8903 [Thread-3] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4722ef0c: startup date [Wed Apr 03 14:31:26 CST 2019]; root of context hierarchy

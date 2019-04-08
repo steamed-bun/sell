@@ -1,0 +1,33 @@
+11064 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+1701 [main] INFO  c.i.s.s.impl.OrderServiceImplTest - Starting OrderServiceImplTest on steamed-bundeMacBook-Pro.local with PID 72142 (started by steamed-bun in /Library/work/my_projects/sell)
+1703 [main] INFO  c.i.s.s.impl.OrderServiceImplTest - No active profile set, falling back to default profiles: default
+1793 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@73c60324: startup date [Mon Apr 08 09:49:13 CST 2019]; root of context hierarchy
+2303 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+5689 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+5708 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+5782 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+5784 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+5785 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+5829 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+5985 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+6620 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+8011 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+9101 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@73c60324: startup date [Mon Apr 08 09:49:13 CST 2019]; root of context hierarchy
+9255 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.BuyerProductController.list()
+9259 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/buyer/product/test],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.BuyerProductController.test()
+9264 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/permission/login],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.PermissionController.login(java.lang.String,java.lang.String)
+9266 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.logout()
+9266 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.login()
+9267 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login-error],methods=[GET]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.RoutingController.loginTo()
+9268 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/first],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.first()
+9269 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/second],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.second(com.imooc.sell.OV.ProductOV)
+9270 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/fourth],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.fourth(java.lang.String,java.lang.Integer,java.lang.Double)
+9271 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/postman/third],methods=[POST]}" onto public com.imooc.sell.OV.ResultOV com.imooc.sell.controller.TestController.third(java.lang.String)
+9277 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+9279 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+9373 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+9374 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+9449 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+9875 [main] INFO  c.i.s.s.impl.OrderServiceImplTest - Started OrderServiceImplTest in 9.181 seconds (JVM running for 10.426)
