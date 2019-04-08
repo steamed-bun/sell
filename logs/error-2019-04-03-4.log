@@ -1,2 +1,0 @@
-9721 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'create_time' cannot be null
-7827 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'create_time' cannot be null
