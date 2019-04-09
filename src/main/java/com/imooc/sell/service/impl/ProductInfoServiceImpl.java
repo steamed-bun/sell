@@ -52,7 +52,15 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 
     @Override
     public void increaseStock(List<CartDTO> cartDTOS) {
-
+        for (CartDTO cartDTO : cartDTOS) {
+            ProductInfo productInfo = productInfoRepository.findOne(cartDTO.getProductId());
+            if (productInfo == null) {
+                throw new SellException(ResultEnum.PRODUCT_NOT_ENOUGH);
+            }
+            Integer result = productInfo.getProductStock() + cartDTO.getProductQuantity();
+            productInfo.setProductStock(result);
+            productInfoRepository.save(productInfo);
+        }
     }
 
     @Override
@@ -70,6 +78,5 @@ public class ProductInfoServiceImpl implements ProductInfoService {
             productInfo.setProductStock(result);
             productInfoRepository.save(productInfo);
         }
-
     }
 }

@@ -4,6 +4,7 @@ import com.imooc.sell.dataobject.OrderDetail;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -22,5 +23,7 @@ public class OrderDTO {
     private BigDecimal orderAmount;
     private Integer orderStatus;
     private Integer payStatus;
+    private Date createTime;
+    private Date updateTime;
     private List<OrderDetail> orderDetails;
 }

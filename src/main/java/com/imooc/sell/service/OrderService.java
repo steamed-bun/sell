@@ -1,9 +1,8 @@
 package com.imooc.sell.service;
 
 import com.imooc.sell.dto.OrderDTO;
-
-import java.awt.print.Pageable;
-import java.util.List;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 /**
  * @description: 订单处理
@@ -19,13 +18,13 @@ public interface OrderService {
     OrderDTO findOne(OrderDTO orderDTO);
 
     /** 查询订单列表 */
-    List<OrderDTO> findList(String buyerOpenid, Pageable pageable);
+    Page<OrderDTO> findList(String buyerOpenid, Pageable pageable);
 
     /** 取消订单 */
     OrderDTO cancel(OrderDTO orderDTO);
 
     /** 完结订单 */
-    OrderDTO finsh(OrderDTO orderDTO);
+    OrderDTO finish(OrderDTO orderDTO);
 
     /** 支付订单 */
     OrderDTO paid(OrderDTO orderDTO);
