@@ -15,6 +15,7 @@ public enum  ResultEnum {
     ORDER_DETAIL_NOT_EXIST(13, "订单详情不存在"),
     ORDER_STATUS_ERROR(14, "订单状态错误"),
     ORDER_UPDATE_ERROR(15, "订单更新失败"),
+    TIME_OUT_WISH(16, "时间范围超出预期"),
     ;
 
     private Integer code;

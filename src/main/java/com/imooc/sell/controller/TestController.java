@@ -4,15 +4,14 @@ import com.imooc.sell.OV.ProductOV;
 import com.imooc.sell.OV.ResultOV;
 import com.imooc.sell.Repository.OrderMasterRepository;
 import com.imooc.sell.dataobject.OrderMaster;
+import com.imooc.sell.enums.TimeEnum;
 import com.imooc.sell.utils.ResultOVUtil;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.io.*;
 import java.math.BigDecimal;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
@@ -63,7 +62,7 @@ public class TestController {
 
     private static final Pattern PATTER = Pattern.compile("bonus.....([0-9]+\\.[0-9]+)");
 
-    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+    /*public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
         File csv = new File("/Users/steamed-bun/Downloads/lottery_award_remember_cny4.csv");
         BufferedWriter out =new BufferedWriter(new OutputStreamWriter(new FileOutputStream("/Users/steamed-bun/Downloads/cny4.csv"),"UTF-8"));
         BufferedReader br = null;
@@ -100,6 +99,25 @@ public class TestController {
         } catch (IOException e)
         {
             e.printStackTrace();
+        }
+    }
+*/
+
+    public static void main(String[] args) {
+        Integer time = 10;
+        TimeEnum timeEnumBuyTime = TimeEnum.getTimeEnumBuyTime(time);
+        switch (timeEnumBuyTime) {
+            case FIRST:
+                System.out.println(TimeEnum.FIRST.getMsg());
+                break;
+            case SECEND:
+                System.out.println(TimeEnum.SECEND.getMsg());
+                break;
+            case THIRD:
+                System.out.println(TimeEnum.SECEND.getMsg());
+                break;
+            default:
+                System.out.println("不期望的情况");
         }
     }
 
