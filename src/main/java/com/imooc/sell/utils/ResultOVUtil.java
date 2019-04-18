@@ -1,6 +1,7 @@
 package com.imooc.sell.utils;
 
 import com.imooc.sell.OV.ResultOV;
+import com.imooc.sell.enums.ResultEnum;
 
 /**
  * @description: 结果返回封装工具
@@ -10,7 +11,7 @@ import com.imooc.sell.OV.ResultOV;
 public class ResultOVUtil {
 
     public static ResultOV success(Object o) {
-        ResultOV resultOV = new ResultOV<>();
+        ResultOV<Object> resultOV = new ResultOV<>();
         resultOV.setData(o);
         resultOV.setCode(0);
         resultOV.setMsg("成功");
@@ -25,6 +26,14 @@ public class ResultOVUtil {
         ResultOV resultOV = new ResultOV<>();
         resultOV.setCode(code);
         resultOV.setMsg(msg);
+        return resultOV;
+    }
+
+    public static ResultOV error(ResultEnum resultEnum, Object data) {
+        ResultOV<Object> resultOV = new ResultOV<>();
+        resultOV.setCode(resultEnum.getCode());
+        resultOV.setMsg(resultEnum.getMessage());
+        resultOV.setData(data);
         return resultOV;
     }
 

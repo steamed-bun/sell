@@ -6,6 +6,7 @@ import com.imooc.sell.Repository.OrderMasterRepository;
 import com.imooc.sell.dataobject.OrderMaster;
 import com.imooc.sell.enums.TimeEnum;
 import com.imooc.sell.utils.ResultOVUtil;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -48,7 +49,7 @@ public class TestController {
         return ResultOVUtil.success();
     }
 
-    @PostMapping(value = "/third")
+    @GetMapping(value = "/third")
     public ResultOV third(String sign) {
         System.out.println(sign);
         return ResultOVUtil.success();

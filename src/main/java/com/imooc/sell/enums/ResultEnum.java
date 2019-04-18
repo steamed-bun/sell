@@ -16,6 +16,8 @@ public enum  ResultEnum {
     ORDER_STATUS_ERROR(14, "订单状态错误"),
     ORDER_UPDATE_ERROR(15, "订单更新失败"),
     TIME_OUT_WISH(16, "时间范围超出预期"),
+    PARAM_ERROR(16, "参数错误"),
+    CART_EMPTY(16, "购物车不能为空"),
     ;
 
     private Integer code;
