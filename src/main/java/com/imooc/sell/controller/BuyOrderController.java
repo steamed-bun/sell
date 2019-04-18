@@ -74,4 +74,12 @@ public class BuyOrderController {
         return ResultOVUtil.success(orderDTO);
     }
     //取消订单
+
+    @PostMapping(value = "/cancel")
+    public ResultOV cancel(@RequestParam String orderId) {
+        //todo 安全问题
+        OrderDTO orderDTO = orderService.findOne(orderId);
+        orderService.cancel(orderDTO);
+        return ResultOVUtil.success();
+    }
 }
