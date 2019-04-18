@@ -65,15 +65,21 @@ public class OrderServiceImplTest {
     @Test
     public void cancel() {
         OrderDTO orderDTO = new OrderDTO();
-        orderDTO.setOrderId("1554705427018214338");
+        orderDTO.setOrderId("1554705406917445207");
         OrderDTO serviceOne = orderService.findOne(orderDTO);
         OrderDTO cancel = orderService.cancel(serviceOne);
         Assert.assertNotNull(cancel);
-        Assert.assertNotEquals(OrderStatusEnum.CANCEL.getCode(), cancel.getOrderStatus());
+        Assert.assertEquals(OrderStatusEnum.CANCEL.getCode(), cancel.getOrderStatus());
     }
 
     @Test
     public void finish() {
+        OrderDTO orderDTO = new OrderDTO();
+        orderDTO.setOrderId("1554705406917445207");
+        OrderDTO serviceOne = orderService.findOne(orderDTO);
+        OrderDTO cancel = orderService.finish(serviceOne);
+        Assert.assertNotNull(cancel);
+        Assert.assertEquals(OrderStatusEnum.FINISHED.getCode(), cancel.getOrderStatus());
     }
 
     @Test
