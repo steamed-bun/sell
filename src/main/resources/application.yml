@@ -9,6 +9,8 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5Dialect
+  jackson:
+    default-property-inclusion: non_null
 logging:
   pattern:
     console: "%d - %msg%n"
