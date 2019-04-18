@@ -3,6 +3,7 @@ package com.imooc.sell.service.impl;
 import com.imooc.sell.dataobject.OrderDetail;
 import com.imooc.sell.dto.OrderDTO;
 import com.imooc.sell.enums.OrderStatusEnum;
+import com.imooc.sell.enums.PayStatusEnum;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -84,5 +85,11 @@ public class OrderServiceImplTest {
 
     @Test
     public void paid() {
+        OrderDTO orderDTO = new OrderDTO();
+        orderDTO.setOrderId("1554705406917445207");
+        OrderDTO serviceOne = orderService.findOne(orderDTO);
+        OrderDTO cancel = orderService.paid(serviceOne);
+        Assert.assertNotNull(cancel);
+        Assert.assertEquals(PayStatusEnum.SUCCESS.getCode(), cancel.getPayStatus());
     }
 }
