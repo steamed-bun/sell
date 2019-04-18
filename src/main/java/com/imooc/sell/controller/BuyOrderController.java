@@ -65,7 +65,13 @@ public class BuyOrderController {
         Page<OrderDTO> orderDTOPage = orderService.findList(openid, pageRequest);
         return ResultOVUtil.success(orderDTOPage.getContent());
     }
-    //订单详情
-    //取消订单
 
+    //订单详情
+    @GetMapping(value = "/detail")
+    public ResultOV<OrderDTO> detail(@RequestParam String orderId) {
+        //todo 安全问题
+        OrderDTO orderDTO = orderService.findOne(orderId);
+        return ResultOVUtil.success(orderDTO);
+    }
+    //取消订单
 }

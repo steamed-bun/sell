@@ -48,9 +48,7 @@ public class OrderServiceImplTest {
 
     @Test
     public void findOne() {
-        OrderDTO orderDTO = new OrderDTO();
-        orderDTO.setOrderId("1554705333635446416");
-        OrderDTO serviceOne = orderService.findOne(orderDTO);
+        OrderDTO serviceOne = orderService.findOne("1554705406917445207");
         Assert.assertNotNull(serviceOne);
         Assert.assertNotNull(serviceOne.getOrderDetails());
         Assert.assertNotEquals(0, serviceOne.getOrderDetails().size());
@@ -65,9 +63,7 @@ public class OrderServiceImplTest {
 
     @Test
     public void cancel() {
-        OrderDTO orderDTO = new OrderDTO();
-        orderDTO.setOrderId("1554705406917445207");
-        OrderDTO serviceOne = orderService.findOne(orderDTO);
+        OrderDTO serviceOne = orderService.findOne("1554705406917445207");
         OrderDTO cancel = orderService.cancel(serviceOne);
         Assert.assertNotNull(cancel);
         Assert.assertEquals(OrderStatusEnum.CANCEL.getCode(), cancel.getOrderStatus());
@@ -75,9 +71,7 @@ public class OrderServiceImplTest {
 
     @Test
     public void finish() {
-        OrderDTO orderDTO = new OrderDTO();
-        orderDTO.setOrderId("1554705406917445207");
-        OrderDTO serviceOne = orderService.findOne(orderDTO);
+        OrderDTO serviceOne = orderService.findOne("1554705406917445207");
         OrderDTO cancel = orderService.finish(serviceOne);
         Assert.assertNotNull(cancel);
         Assert.assertEquals(OrderStatusEnum.FINISHED.getCode(), cancel.getOrderStatus());
@@ -85,9 +79,7 @@ public class OrderServiceImplTest {
 
     @Test
     public void paid() {
-        OrderDTO orderDTO = new OrderDTO();
-        orderDTO.setOrderId("1554705406917445207");
-        OrderDTO serviceOne = orderService.findOne(orderDTO);
+        OrderDTO serviceOne = orderService.findOne("1554705406917445207");
         OrderDTO cancel = orderService.paid(serviceOne);
         Assert.assertNotNull(cancel);
         Assert.assertEquals(PayStatusEnum.SUCCESS.getCode(), cancel.getPayStatus());
